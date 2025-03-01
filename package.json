@@ -1,0 +1,33 @@
+{
+  "name": "chertopert",
+  "version": "0.1.0",
+  "description": "Fake data generator for Persian developers",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "lint": "eslint . --ext .ts",
+    "prepublishOnly": "npm run build",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "faker",
+    "persian",
+    "data-generator",
+    "iran"
+  ],
+  "author": "Daniel Rahmani",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.21.0",
+    "prettier": "^3.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.7"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
