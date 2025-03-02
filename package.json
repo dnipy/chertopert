@@ -8,7 +8,8 @@
   "scripts": {
     "prettier": "npx prettier --write .",
     "build": "tsc",
-    "test": "vitest",
+    "test": "vitest --run",
+    "test:run": "vitest",
     "lint": "eslint . --ext .ts",
     "prepublishOnly": "npm run build",
     "dev": "nodemon",
