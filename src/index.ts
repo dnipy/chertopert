@@ -1,5 +1,4 @@
-import { Bootstrap } from './bootstrap';
-const ChertoPert = Bootstrap();
+import { Bootstrap as chertopert } from './bootstrap';
 
 export * from './modules';
-export default ChertoPert;
+export default chertopert;
