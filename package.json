@@ -6,11 +6,13 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
+    "prettier": "npx prettier --write .",
     "build": "tsc",
     "test": "vitest",
     "lint": "eslint . --ext .ts",
     "prepublishOnly": "npm run build",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "prepare": "husky install"
   },
   "keywords": [
     "faker",
@@ -20,9 +22,14 @@
   ],
   "author": "Daniel Rahmani",
   "license": "MIT",
+  "lint-staged": {
+    "**/*.{js,ts,jsx,tsx,json,md}": "prettier --write"
+  },
   "devDependencies": {
     "eslint": "^9.21.0",
-    "prettier": "^3.5.2",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.4.3",
+    "prettier": "3.5.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2",
     "vitest": "^3.0.7"

@@ -1,2 +1,2 @@
-export * from './cellphone'
-export * from './landline'
+export * from './cellphone';
+export * from './landline';

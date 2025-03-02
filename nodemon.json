@@ -1,11 +1,6 @@
 {
-    "watch": [
-        "src"
-    ],
-    "ext": "ts",
-    "ignore": [
-        "dist",
-        "node_modules"
-    ],
-    "exec": "tsx --inspect ./src/test.ts"
+  "watch": ["src"],
+  "ext": "ts",
+  "ignore": ["dist", "node_modules"],
+  "exec": "tsx --inspect ./src/test.ts"
 }

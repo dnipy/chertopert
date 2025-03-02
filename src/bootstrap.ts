@@ -1,5 +1,5 @@
-import * as modules from "./modules"
+import * as modules from './modules';
 
 export const Bootstrap = () => {
-    return modules
-}
+  return modules;
+};
