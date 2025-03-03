@@ -2,15 +2,15 @@ import { randomItem, randomNumberString } from '../../utils';
 import { AlleyGenerator, PlaceGenerator, ProvinceGenerator, SquareGenerator } from './lib';
 import { I_ADDRESS_MODULE_CONFIG } from './type';
 
-export const Address = (config?: I_ADDRESS_MODULE_CONFIG) => {
-  const Province = () => randomItem(ProvinceGenerator());
-  const Place = () => randomItem(PlaceGenerator(config));
-  const Alley = () => randomItem(AlleyGenerator(config));
-  const Square = () => randomItem(SquareGenerator(config));
-  const FullAddress = () => {
-    const addressParts = [`${Province()} `];
+export const address = (config?: I_ADDRESS_MODULE_CONFIG) => {
+  const province = () => randomItem(ProvinceGenerator());
+  const place = () => randomItem(PlaceGenerator(config));
+  const alley = () => randomItem(AlleyGenerator(config));
+  const square = () => randomItem(SquareGenerator(config));
+  const fullAddress = () => {
+    const addressParts = [`${province()} `];
 
-    const optionalParts = [`میدان ${Square()} `, `جنب ${Place()} `, `کوچه ${Alley()} `].filter(
+    const optionalParts = [`میدان ${square()} `, `جنب ${place()} `, `کوچه ${alley()} `].filter(
       () => Math.random() > 0.5
     );
 
@@ -20,10 +20,10 @@ export const Address = (config?: I_ADDRESS_MODULE_CONFIG) => {
   };
 
   return {
-    Province,
-    Place,
-    Alley,
-    Square,
-    FullAddress,
+    province,
+    place,
+    alley,
+    square,
+    fullAddress,
   };
 };

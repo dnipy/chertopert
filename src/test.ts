@@ -1,5 +1,14 @@
 import Cherto from '.';
 
-const Chertopert = Cherto();
+const chertopert = Cherto();
 
-// Chertopert.Address().
+console.log({
+  swear: chertopert.swear().impolite(),
+  name: chertopert.person().firstName(),
+  username: chertopert.person().userName(),
+  age: chertopert.code().random(2),
+  otp: chertopert.code().random(5),
+  join_date: chertopert.date().fullDate(),
+  address: chertopert.address().fullAddress(),
+  province: chertopert.address().province(),
+});

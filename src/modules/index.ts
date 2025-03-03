@@ -1,5 +1,6 @@
-export { Name } from './name';
-export { Phone } from './phone';
-export { Date } from './date';
-export { Code } from './code';
-export { Address } from './address';
+export * from './name';
+export * from './phone';
+export * from './date';
+export * from './code';
+export * from './address';
+export * from './swear';
