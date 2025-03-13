@@ -5,8 +5,10 @@
     "target": "ESNext",
     "allowJs": true,
     "outDir": "dist",
-    "rootDir": "src",
+    "rootDir": ".",
     "esModuleInterop": true,
     "skipLibCheck": true
-  }
+  },
+  "include": ["src", "test"],
+  "exclude": ["dist", "node_modules"]
 }
