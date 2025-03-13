@@ -1,4 +1,4 @@
-import { Bootstrap as chertopert } from './bootstrap';
+import { Bootstrap as chertoperter } from './bootstrap';
 
 export * from './modules';
-export default chertopert;
+export default chertoperter;

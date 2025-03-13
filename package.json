@@ -1,5 +1,5 @@
 {
-  "name": "chertopert",
+  "name": "chertoperter",
   "version": "0.1.0",
   "description": "Fake data generator for Persian developers",
   "main": "dist/index.js",
@@ -16,12 +16,17 @@
     "prepare": "husky install"
   },
   "keywords": [
-    "faker",
     "persian",
+    "persian-faker",
+    "faker",
+    "chertoperter",
+    "persian-fake-data",
     "data-generator",
-    "iran"
+    "js",
+    "iran",
+    "persian-data-generator"
   ],
-  "author": "Daniel Rahmani",
+  "author": "Danial Rahmani",
   "license": "MIT",
   "lint-staged": {
     "**/*.{js,ts,jsx,tsx,json,md}": "prettier --write"
@@ -36,7 +41,5 @@
     "typescript": "^5.8.2",
     "vitest": "^3.0.7"
   },
-  "dependencies": {
-    "lodash": "^4.17.21"
-  }
+  "dependencies": {}
 }

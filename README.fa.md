@@ -1,10 +1,10 @@
 <p dir="ltr">
-    <a href="https://github.com/dnipy/chertopert/blob/main/README.md">English</a> | 
+    <a href="https://github.com/dnipy/chertoperter/blob/main/README.md">English</a> | 
 </p>
 
 # چرت‌وپرت 📦
 
-<!-- <img src="https://github.com/dnipy/chertopert/data/logo.png" alt="chertopert.js" width="300"> -->
+<!-- <img src="https://github.com/dnipy/chertoperter/data/logo.png" alt="chertoperter.js" width="300"> -->
 
 **چرت‌وپرت** یک جایگزین مدرن و فارسی‌پسند برای Faker.js است. این ابزار مجموعه‌ای از قابلیت‌ها را برای تولید داده‌های تصادفی اما معنادار فارسی فراهم می‌کند؛ شامل نام‌ها، شماره‌های تلفن، تاریخ‌ها، آدرس‌ها، کدها و حتی فحش‌ها! مناسب برای تست اپلیکیشن‌ها و ایجاد داده‌های آزمایشی در پایگاه داده‌ها 🚀
 
@@ -23,13 +23,13 @@
 برای نصب چرت‌وپرت از npm استفاده کنید:
 
 ```bash
-npm install chertopert
+npm install chertoperter
 ```
 
 یا با yarn:
 
 ```bash
-yarn add chertopert
+yarn add chertoperter
 ```
 
 ## استفاده 🚀
@@ -37,7 +37,7 @@ yarn add chertopert
 ماژول‌های مورد نیاز را ایمپورت کنید و شروع به تولید داده‌های فارسی جعلی کنید:
 
 ```ts
-import { person, phone, date, address, code, swear } from "chertopert";
+import { person, phone, date, address, code, swear } from "chertoperter";
 
 // تولید یک نام کامل فارسی تصادفی
 const fullName = person().fullName();

@@ -1,11 +1,11 @@
 <p dir="ltr">
-    <a href="https://github.com/dnipy/chertopert/blob/main/README.fa.md">فارسی</a> | 
+    <a href="https://github.com/dnipy/chertoperter/blob/main/README.fa.md">فارسی</a> | 
 </p>
 
-# Chertopert 📦
-<!-- <img src="https://github.com/dnipy/chertopert/data/logo.png" alt="chertopert.js" width="300"> -->
+# Chertoperter 📦
+<!-- <img src="https://github.com/dnipy/chertoperter/data/logo.png" alt="chertoperter.js" width="300"> -->
 
-**Chertopert** is a modern, Persian-friendly alternative to Faker.js. It provides a collection of utilities for generating random yet meaningful Persian data, including names, phone numbers, dates, addresses, codes, and even swear words. Perfect for testing applications and seeding databases with Persian content. 🚀
+**Chertoperter** is a modern, Persian-friendly alternative to Faker.js. It provides a collection of utilities for generating random yet meaningful Persian data, including names, phone numbers, dates, addresses, codes, and even swear words. Perfect for testing applications and seeding databases with Persian content. 🚀
 
 ## Features ✨
 
@@ -19,16 +19,16 @@
 
 ## Installation ⬇️
 
-Install Chertopert via npm:
+Install chertoperter via npm:
 
 ```bash
-npm install chertopert
+npm install chertoperter
 ```
 
 or with yarn:
 
 ```bash
-yarn add chertopert
+yarn add chertoperter
 ```
 
 ## Usage 🚀
@@ -36,7 +36,7 @@ yarn add chertopert
 Import the desired modules and start generating fake Persian data:
 
 ```ts
-import { person, phone, date, address, code, swear } from "chertopert";
+import { person, phone, date, address, code, swear } from "chertoperter";
 
 // Generate a random Persian full name
 const fullName = person().fullName();
@@ -145,7 +145,7 @@ We welcome contributions! Please follow these steps:
 
 ## License 📄
 
-Chertopert is open-source and licensed under the **MIT License**.
+chertoperter is open-source and licensed under the **MIT License**.
 
 ---
 
